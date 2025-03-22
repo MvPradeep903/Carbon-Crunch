@@ -664,5 +664,13 @@ h1 {
 
     .menu-btn {
         display: block;
+        display: flex;
+        position: absolute;
+        margin-left: 500px;
+        top: 15px;
+        position: fixed;
+    }
+    .nav-img {
+        margin-left: -500px;
     }
 }

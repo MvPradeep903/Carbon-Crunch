@@ -6,6 +6,5 @@ document.addEventListener("DOMContentLoaded", function () {
     menuBtn.addEventListener("click", function () {
         navLinks.classList.toggle("show");
         menuBtn.textContent = navLinks.classList.contains("show") ? "✖" : "☰";
-    });
+    });
 });
-
