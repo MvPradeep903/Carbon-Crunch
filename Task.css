@@ -199,6 +199,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .stats-section {
     display: flex;
     justify-content: center;
@@ -206,7 +207,17 @@ h1 {
     padding: 40px 20px;
     margin-right: 20px;
     margin-top: 50px;
-    font-family: 'Inter', sans-serif
+    font-family: 'Inter', sans-serif;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 .stat-card {
