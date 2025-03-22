@@ -26,8 +26,7 @@ Edit
 Carbon-Crunch/
 │── index.html       # Main HTML file  
 │── style.css       # CSS file for styling  
-│── script.js        # JavaScript for interactivity  
-│── assets/          # Images, icons, and external assets  
+│── script.js        # JavaScript for interactivity   
 │── README.md        # Project documentation  
 🚀 How to Run Locally
 Clone the repository:
